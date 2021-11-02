@@ -11,7 +11,7 @@ And this use a build.rs like this:
 ```
 use std::io::Result;
 
-use version-rs::version;
+use version_rs::version;
 
 fn main() -> Result<()> {
     println!(
